@@ -1,0 +1,32 @@
+.App {
+    display: grid;
+    width: 900px;
+    margin: 0 auto;
+    grid-template-rows: 60px 1fr;
+    grid-template-columns: 2fr 10fr;
+    grid-gap: 10px;
+    grid-template-areas:
+            "h h"
+            "n c";
+}
+
+.header img {
+    width: 30px;
+}
+
+.header {
+    grid-area: h;
+    background-color: #007aff;
+}
+
+.nav {
+    grid-area: n;
+    background-color: #007aff;
+}
+
+.content {
+    grid-area: c;
+}
+.content img {
+    width: 800px;
+}
