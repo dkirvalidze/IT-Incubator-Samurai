@@ -4,7 +4,7 @@
     margin: 0 auto;
     grid-template-rows: 60px 1fr;
     grid-template-columns: 2fr 10fr;
-    grid-gap: 10px;
+    /* grid-gap: 10px; */
     grid-template-areas:
             "h h"
             "n c";
@@ -21,11 +21,12 @@
 
 .nav {
     grid-area: n;
-    background-color: #007aff;
+    background-color: #00ff4c;
 }
 
 .content {
     grid-area: c;
+    background-color: burlywood;
 }
 .content img {
     width: 800px;
