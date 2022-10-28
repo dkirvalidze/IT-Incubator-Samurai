@@ -9,7 +9,8 @@ export const MyPosts = () => {
             <button>Add post</button>
             <button>Delete post</button>
             <div className="s.posts">
-            <Post />
+            <Post message = "Hi, how are you?"/>
+            <Post message = "It's my first post"/>
             </div>
         </div>
     );
