@@ -10,6 +10,9 @@
             "n c";
 }
 
-
+.App-content {
+    grid-area: c;
+    background-color: burlywood;
+}
 
 
